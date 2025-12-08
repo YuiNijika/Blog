@@ -1,8 +1,15 @@
 [
   {
+    "slug": "note/about",
+    "title": "关于",
+    "date": "2025-12-08T12:32:50.267Z",
+    "tags": [],
+    "excerpt": "你好鸭 我是鼠子(YuiNijika) 熟悉PHP开发、略懂NuxtJS，倾向于面向对象编程。 代表作 G2M : Rust + NuxtJS开发的GTAMOD管理器 TTDF : 最直观的Typecho主题模板开..."
+  },
+  {
     "slug": "hello-world",
     "title": "Hello World!",
-    "date": "2025-12-05T19:01:47.620Z",
+    "date": "2025-12-05T14:42:42.159Z",
     "tags": [
       "vue",
       "markdown"
