@@ -20,10 +20,10 @@ export default defineConfig({
     }),
     vueDevTools(),
     prismjsPlugin({
-      languages: 'all', 
-      plugins: ['toolbar', 'show-language', 'copy-to-clipboard'], // 插件
-      theme: 'tomorrow.min', 
-      css: true 
+      languages: 'all',
+      plugins: ['toolbar', 'show-language', 'copy-to-clipboard'],
+      theme: 'tomorrow.min',
+      css: true
     })
   ],
   resolve: {
@@ -31,4 +31,12 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
+  server: {
+    watch: {
+      ignored: [
+        '**/public/content/**',
+        '**/public/index.json'
+      ]
+    }
+  }
 })
